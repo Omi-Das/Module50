@@ -11,7 +11,7 @@ const UserDetailPage = async ({ params }) => {
     if (!user) return <div>User not found!</div>;
 
     return (
-        <div className="p-10">
+        <div className="p-12">
             <h2>User Details: {user.name}</h2>
             <p>Email: {user.email}</p>
         </div>
